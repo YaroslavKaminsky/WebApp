@@ -1,4 +1,4 @@
-import os
+
 from boto3 import S3Connection
 
 EXCHANGERATE_KEY = S3Connection(os.environ['EXCHANGERATE_KEY'])
