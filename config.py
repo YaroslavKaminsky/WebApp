@@ -1,5 +1,5 @@
 
-from boto3 import S3Connection
+from boto.s3.connection import S3Connection
 
 EXCHANGERATE_KEY = S3Connection(os.environ['EXCHANGERATE_KEY'])
 TELEGRAMBOT_KEY = S3Connection(os.environ['TELEGRAMBOT_KEY'])
